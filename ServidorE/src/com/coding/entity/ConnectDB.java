@@ -14,7 +14,7 @@ public class ConnectDB {
 
     public ConnectDB() throws ClassNotFoundException, SQLException {
         Class.forName(myDriver);
-        conn = DriverManager.getConnection(myUrl, "root", "Yasoricm10");
+        conn = DriverManager.getConnection(myUrl, "root", "");
         System.out.println("✅ Se ha conectado a la base de datos 🔌");
     }
 
